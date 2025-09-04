@@ -1,6 +1,8 @@
-a = 10
-b = 3.0
-c = a * b
-d = a + b
+x = 10 > 5  
 
-print (f"c = {c}, d = {d}")
+y = 3 == 4  
+
+z = 7 <= 7
+
+print(not (x or y))  
+print((x or y) and z)
